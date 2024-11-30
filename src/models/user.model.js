@@ -49,6 +49,7 @@ const userSchema = new Schema(
     //     timestamps: true
     // }
 {
+    name:String,
     email:String,
     password:String,
 
